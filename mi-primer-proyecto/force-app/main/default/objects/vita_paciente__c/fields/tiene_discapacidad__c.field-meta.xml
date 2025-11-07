@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tiene_discapacidad__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indica si el paciente posee alguna discapacidad reconocida. Si está marcado, se activan campos adicionales como tipo de discapacidad, asistencia requerida y observaciones de accesibilidad.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Marcá esta opción si el paciente tiene una discapacidad registrada. Esto permite adaptar la atención y activar campos específicos.</inlineHelpText>
+    <label>Tiene Discapacidad</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

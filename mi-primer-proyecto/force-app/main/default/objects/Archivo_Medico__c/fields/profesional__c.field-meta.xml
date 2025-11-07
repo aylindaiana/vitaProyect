@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>profesional__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>El sistema solo mostrará los registros del objeto Profesional cuya Especialidad coincida con el valor que el usuario acaba de seleccionar en el campo Especialidad del Turno actual.</inlineHelpText>
+    <label>Profesional ID</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>El profesional seleccionado no pertenece a la especialidad elegida. Por favor, seleccione primero la especialidad.</errorMessage>
+        <filterItems>
+            <field>$Source.especialidad__c</field>
+            <operation>equals</operation>
+            <valueField>vita_profesional__c.especialidad__c</valueField>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>vita_profesional__c</referenceTo>
+    <relationshipLabel>Archivos Medicos</relationshipLabel>
+    <relationshipName>Archivos_Medicos</relationshipName>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

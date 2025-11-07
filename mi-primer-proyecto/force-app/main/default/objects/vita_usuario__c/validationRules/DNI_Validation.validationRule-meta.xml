@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DNI_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(
+    ISBLANK(usuario_dni__c),
+    NOT(ISNUMBER(usuario_dni__c)),
+    LEN(usuario_dni__c) &lt;&gt; 8
+)</errorConditionFormula>
+    <errorMessage>Ponga un dni valido con numeros y hasta 8 caracteres.</errorMessage>
+</ValidationRule>

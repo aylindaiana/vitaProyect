@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lista_de_Turnos</fullName>
+    <columns>NAME</columns>
+    <columns>Paciente__c</columns>
+    <columns>Profesional__c</columns>
+    <columns>Especialidad_Turno__c</columns>
+    <columns>DNI_PAC__c</columns>
+    <columns>Apellido_Paciente__c</columns>
+    <columns>Nombre_Paciente__c</columns>
+    <columns>DNI_Espec__c</columns>
+    <columns>Apellido_Profesional__c</columns>
+    <columns>Nombre_Profesional__c</columns>
+    <columns>Tipo_de_Turno__c</columns>
+    <columns>estado_del_turno__c</columns>
+    <columns>Especialidad__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>Lista de Turnos</label>
+</ListView>

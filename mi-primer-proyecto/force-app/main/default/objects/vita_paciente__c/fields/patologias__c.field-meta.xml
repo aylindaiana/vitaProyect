@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>patologias__c</fullName>
+    <description>Listado de patologías médicas relevantes del paciente. Permite seleccionar múltiples condiciones para seguimiento clínico, reportes y lógica de riesgo.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Seleccioná todas las patologías que aplican al paciente. Este campo impacta en el cálculo de riesgo clínico y en la priorización de atención.</inlineHelpText>
+    <label>Patologías</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Hipertensión</fullName>
+                <default>false</default>
+                <label>Hipertensión</label>
+            </value>
+            <value>
+                <fullName>Insuficiencia cardíaca</fullName>
+                <default>false</default>
+                <label>Insuficiencia cardíaca</label>
+            </value>
+            <value>
+                <fullName>Arritmias</fullName>
+                <default>false</default>
+                <label>Arritmias</label>
+            </value>
+            <value>
+                <fullName>Diabetes tipo 1</fullName>
+                <default>false</default>
+                <label>Diabetes tipo 1</label>
+            </value>
+            <value>
+                <fullName>Diabetes tipo 2</fullName>
+                <default>false</default>
+                <label>Diabetes tipo 2</label>
+            </value>
+            <value>
+                <fullName>Hipotiroidismo</fullName>
+                <default>false</default>
+                <label>Hipotiroidismo</label>
+            </value>
+            <value>
+                <fullName>Hipertiroidismo</fullName>
+                <default>false</default>
+                <label>Hipertiroidismo</label>
+            </value>
+            <value>
+                <fullName>Asma</fullName>
+                <default>false</default>
+                <label>Asma</label>
+            </value>
+            <value>
+                <fullName>EPOC</fullName>
+                <default>false</default>
+                <label>EPOC</label>
+            </value>
+            <value>
+                <fullName>Bronquitis crónica</fullName>
+                <default>false</default>
+                <label>Bronquitis crónica</label>
+            </value>
+            <value>
+                <fullName>Epilepsia</fullName>
+                <default>false</default>
+                <label>Epilepsia</label>
+            </value>
+            <value>
+                <fullName>Parkinson</fullName>
+                <default>false</default>
+                <label>Parkinson</label>
+            </value>
+            <value>
+                <fullName>Migraña</fullName>
+                <default>false</default>
+                <label>Migraña</label>
+            </value>
+            <value>
+                <fullName>Depresión</fullName>
+                <default>false</default>
+                <label>Depresión</label>
+            </value>
+            <value>
+                <fullName>Ansiedad</fullName>
+                <default>false</default>
+                <label>Ansiedad</label>
+            </value>
+            <value>
+                <fullName>Trastorno bipolar</fullName>
+                <default>false</default>
+                <label>Trastorno bipolar</label>
+            </value>
+            <value>
+                <fullName>Gastritis</fullName>
+                <default>false</default>
+                <label>Gastritis</label>
+            </value>
+            <value>
+                <fullName>Reflujo</fullName>
+                <default>false</default>
+                <label>Reflujo</label>
+            </value>
+            <value>
+                <fullName>Enfermedad celíaca</fullName>
+                <default>false</default>
+                <label>Enfermedad celíaca</label>
+            </value>
+            <value>
+                <fullName>Lupus</fullName>
+                <default>false</default>
+                <label>Lupus</label>
+            </value>
+            <value>
+                <fullName>Artritis reumatoide</fullName>
+                <default>false</default>
+                <label>Artritis reumatoide</label>
+            </value>
+            <value>
+                <fullName>Psoriasis</fullName>
+                <default>false</default>
+                <label>Psoriasis</label>
+            </value>
+            <value>
+                <fullName>Cáncer de mama</fullName>
+                <default>false</default>
+                <label>Cáncer de mama</label>
+            </value>
+            <value>
+                <fullName>Cáncer de próstata</fullName>
+                <default>false</default>
+                <label>Cáncer de próstata</label>
+            </value>
+            <value>
+                <fullName>Cáncer de colon</fullName>
+                <default>false</default>
+                <label>Cáncer de colon</label>
+            </value>
+            <value>
+                <fullName>VIH</fullName>
+                <default>false</default>
+                <label>VIH</label>
+            </value>
+            <value>
+                <fullName>Hepatitis B</fullName>
+                <default>false</default>
+                <label>Hepatitis B</label>
+            </value>
+            <value>
+                <fullName>Hepatitis C</fullName>
+                <default>false</default>
+                <label>Hepatitis C</label>
+            </value>
+            <value>
+                <fullName>Tuberculosis</fullName>
+                <default>false</default>
+                <label>Tuberculosis</label>
+            </value>
+            <value>
+                <fullName>Osteoporosis</fullName>
+                <default>false</default>
+                <label>Osteoporosis</label>
+            </value>
+            <value>
+                <fullName>Hernia de disco</fullName>
+                <default>false</default>
+                <label>Hernia de disco</label>
+            </value>
+            <value>
+                <fullName>Lumbalgia</fullName>
+                <default>false</default>
+                <label>Lumbalgia</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

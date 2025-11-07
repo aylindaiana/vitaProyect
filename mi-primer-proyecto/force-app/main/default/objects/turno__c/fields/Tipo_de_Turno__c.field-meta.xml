@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipo_de_Turno__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipo de Turno</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Primera Consulta</fullName>
+                <default>true</default>
+                <label>Primera Consulta</label>
+            </value>
+            <value>
+                <fullName>Seguimiento / Control</fullName>
+                <default>false</default>
+                <label>Seguimiento / Control</label>
+            </value>
+            <value>
+                <fullName>Urgencia</fullName>
+                <default>false</default>
+                <label>Urgencia</label>
+            </value>
+            <value>
+                <fullName>Postoperatorio</fullName>
+                <default>false</default>
+                <label>Postoperatorio</label>
+            </value>
+            <value>
+                <fullName>Estudio / Laboratorio</fullName>
+                <default>false</default>
+                <label>Estudio / Laboratorio</label>
+            </value>
+            <value>
+                <fullName>Otro</fullName>
+                <default>false</default>
+                <label>Otro</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

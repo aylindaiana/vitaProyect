@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Profesional_Info</fullName>
+    <fields>DNI_U__c</fields>
+    <fields>Apellido_U__c</fields>
+    <fields>Nombre_U__c</fields>
+    <label>Profesional Info</label>
+</CompactLayout>

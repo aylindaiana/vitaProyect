@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lista_de_Pacientes</fullName>
+    <columns>NAME</columns>
+    <columns>U_PAC_DNI__c</columns>
+    <columns>PAC_Apellido__c</columns>
+    <columns>PAC_Nombre__c</columns>
+    <columns>usuario_id__c</columns>
+    <columns>estado_clinico__c</columns>
+    <columns>riesgo_clinico__c</columns>
+    <columns>Nombre_de_Cobertura__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>U_PAC_DNI__c</field>
+        <operation>contains</operation>
+    </filters>
+    <filters>
+        <field>PAC_Apellido__c</field>
+        <operation>contains</operation>
+    </filters>
+    <label>Lista de Pacientes</label>
+</ListView>

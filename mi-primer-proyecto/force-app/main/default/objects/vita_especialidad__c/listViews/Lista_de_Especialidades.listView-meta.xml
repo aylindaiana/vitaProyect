@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lista_de_Especialidades</fullName>
+    <columns>NAME</columns>
+    <columns>cod_especialidad__c</columns>
+    <columns>area_medica__c</columns>
+    <columns>nombre_especialidad__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>Lista de Especialidades</label>
+</ListView>

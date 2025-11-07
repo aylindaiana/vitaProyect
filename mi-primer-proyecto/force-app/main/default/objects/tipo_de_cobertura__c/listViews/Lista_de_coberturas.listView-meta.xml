@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lista_de_coberturas</fullName>
+    <columns>NAME</columns>
+    <columns>clasificacion_cobertura__c</columns>
+    <columns>nombre_de_la_entidad__c</columns>
+    <columns>Porcentaje_Descuento__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>Lista de coberturas</label>
+</ListView>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>estado_clinico__c</fullName>
+    <description>Clasificación médica del estado actual del paciente. Útil para priorizar atención, activar alertas y generar reportes clínicos.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Seleccioná el estado clínico actual del paciente. Este campo impacta en la lógica de turnos, layouts y seguimiento.</inlineHelpText>
+    <label>Estado Clínico</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Estable</fullName>
+                <default>true</default>
+                <label>Estable</label>
+            </value>
+            <value>
+                <fullName>En tratamiento</fullName>
+                <default>false</default>
+                <label>En tratamiento</label>
+            </value>
+            <value>
+                <fullName>Crónico</fullName>
+                <default>false</default>
+                <label>Crónico</label>
+            </value>
+            <value>
+                <fullName>Recuperado</fullName>
+                <default>false</default>
+                <label>Recuperado</label>
+            </value>
+            <value>
+                <fullName>Derivado</fullName>
+                <default>false</default>
+                <label>Derivado</label>
+            </value>
+            <value>
+                <fullName>Pendiente de evaluación</fullName>
+                <default>false</default>
+                <label>Pendiente de evaluación</label>
+            </value>
+            <value>
+                <fullName>Internado</fullName>
+                <default>false</default>
+                <label>Internado</label>
+            </value>
+            <value>
+                <fullName>Requiere seguimiento</fullName>
+                <default>false</default>
+                <label>Requiere seguimiento</label>
+            </value>
+            <value>
+                <fullName>Fallecido</fullName>
+                <default>false</default>
+                <label>Fallecido</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

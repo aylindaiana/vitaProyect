@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>especialidad__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>Especialidad asociada al estudio.</inlineHelpText>
+    <label>Especialidad ID</label>
+    <referenceTo>vita_especialidad__c</referenceTo>
+    <relationshipLabel>Archivos Medicos</relationshipLabel>
+    <relationshipName>Archivos_Medicos</relationshipName>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

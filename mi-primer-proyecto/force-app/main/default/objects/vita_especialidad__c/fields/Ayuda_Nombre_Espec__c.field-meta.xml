@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ayuda_Nombre_Espec__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE( nombre_especialidad__c ,
+  &quot;medicina_general&quot;, &quot;Medicina General&quot;,
+  &quot;geriatria&quot;, &quot;Geriatría&quot;,
+  &quot;ginecologia&quot;, &quot;Ginecología&quot;,
+  &quot;nutricion&quot;, &quot;Nutrición&quot;,
+  &quot;cardiologia_general&quot;, &quot;Cardiología General&quot;,
+  &quot;gastroenterologia&quot;, &quot;Gastroenterología&quot;,
+  &quot;dermatologia_general&quot;, &quot;Dermatología General&quot;,
+  &quot;infectologia&quot;, &quot;Infectología&quot;,
+  &quot;reumatologia&quot;, &quot;Reumatología&quot;,
+  &quot;alergologia&quot;, &quot;Alergología&quot;,
+  &quot;urologia_clinica&quot;, &quot;Urología Clínica (No quirúrgica)&quot;,
+  &quot;cirugia_general&quot;, &quot;Cirugía General&quot;,
+  &quot;traumatologia&quot;, &quot;Traumatología&quot;,
+  &quot;urologia_quirurgica&quot;, &quot;Urología Quirúrgica&quot;,
+  &quot;oftalmologia_quirurgica&quot;, &quot;Oftalmología (Quirúrgica)&quot;,
+  &quot;neurocirugia&quot;, &quot;Neurocirugía&quot;,
+  &quot;otorrinolaringologia_quirurgica&quot;, &quot;Otorrinolaringología (Quirúrgica)&quot;,
+  &quot;maxilofacial_cirugia&quot;, &quot;Maxilofacial (Cirugía)&quot;,
+  &quot;cardiovascular_cirugia&quot;, &quot;Cardiovascular (Cirugía)&quot;,
+  &quot;vascular_cirugia&quot;, &quot;Vascular (Cirugía)&quot;,
+  &quot;neurologia&quot;, &quot;Neurología&quot;,
+  &quot;psiquiatria_general&quot;, &quot;Psiquiatría General&quot;,
+  &quot;psicologia_clinica&quot;, &quot;Psicología Clínica&quot;,
+  &quot;obstetricia_y_control_prenatal&quot;, &quot;Obstetricia y Control Prenatal&quot;,
+  &quot;medicina_materno_fetal&quot;, &quot;Medicina Materno Fetal&quot;,
+  &quot;pediatria_general&quot;, &quot;Pediatría General&quot;,
+  &quot;neonatologia&quot;, &quot;Neonatología&quot;,
+  &quot;infectologia_pediatrica&quot;, &quot;Infectología Pediátrica&quot;,
+  &quot;cardiologia_infantil&quot;, &quot;Cardiología Infantil&quot;,
+  &quot;psiquiatria_infanto_juvenil&quot;, &quot;Psiquiatría Infanto Juvenil&quot;,
+  &quot;nutricion_infantil&quot;, &quot;Nutrición Infantil&quot;,
+  &quot;diagnostico_por_imagen&quot;, &quot;Diagnóstico por Imagen (Radiología, Ecografías, etc.)&quot;,
+  &quot;medicina_fisica_y_rehabilitacion&quot;, &quot;Medicina Física y Rehabilitación (Fisioterapia, Kinesiología)&quot;,
+  &quot;laboratorio_de_analisis_clinicos&quot;, &quot;Laboratorio de Análisis Clínicos (Patología, Bioquímica)&quot;,
+  &quot;anestesiologia_y_manejo_del_dolor&quot;, &quot;Anestesiología y Manejo del Dolor&quot;,
+  &quot;oncologia_clinica&quot;, &quot;Oncología Clínica&quot;,
+  &quot;patologia_diagnostica&quot;, &quot;Anatomía Patológica (Biopsias, etc.)&quot;,
+  &quot;&quot;
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Ayuda Nombre Espec</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

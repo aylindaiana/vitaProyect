@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tipo_matricula__c</fullName>
+    <description>Jurisdicción de la matrícula</description>
+    <externalId>false</externalId>
+    <label>Tipo de Matricula</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Nacional</fullName>
+                <default>false</default>
+                <label>Nacional</label>
+            </value>
+            <value>
+                <fullName>Provincial</fullName>
+                <default>false</default>
+                <label>Provincial</label>
+            </value>
+            <value>
+                <fullName>Municipal</fullName>
+                <default>false</default>
+                <label>Municipal</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
