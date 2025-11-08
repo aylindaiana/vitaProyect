@@ -1,0 +1,31 @@
+.background-image-container {
+    min-height: 100vh;
+    background-image: url('../images/fondoVita.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-section {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+.form-section {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #333; 
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.slds-button_brand {
+    background-color: #7B3E9C; 
+    border-color: #7B3E9C;
+}
+
+.slds-button_brand:hover {
+    background-color: #6a3487; 
+    border-color: #6a3487;
+}
