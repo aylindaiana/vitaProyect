@@ -1,6 +1,6 @@
 .background-image-container {
     min-height: 100vh;
-    background-image: url('../images/fondoVita.jpg');
+    background-image: url('../resources/fondoVita.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
